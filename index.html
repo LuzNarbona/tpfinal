@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final</title>
+    <LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen>
+</head>
+<body>
+    <div class="center">
+        <h2>¿Qué libro quiere agregar?</h2>
+        <form action="index.php" method="get">
+            <div class="inputbox">
+                <span for="">Id</span>
+                <input type="number" name="ID" required="required"> <br> <br>
+            </div>
+            <div class="inputbox">
+                <span for="">Título del libro</span>
+                <input type="text" name="Titulo_del_libro"><br>
+            </div>
+            <div class="inputbox">
+                <span for="">Autor</span>
+                <input type="text" name="Autor"><br>
+            </div>
+            <div class="inputbox">
+                <span for="">Estado del libro</span>
+                <input type="text" name="Estado_del_libro"><br>
+            </div>
+            <div class="inputbox">
+                <span for="">Puntaje</span>
+                <input type="text" name="Puntaje_5"><br>
+            </div>
+            <div class="inputbox">
+                <input type="submit" value="Agregar">
+            </div>
+        </form>
+        <form action="index2.php" method="get">
+            <div class="inputbox">
+                <span for="">Busqueda: </span>
+                <input type="text" name="buscar"><br>
+            </div>
+            <div class="inputbox">
+                <input type="submit" value="Buscar">
+            </div>
+        </form>
+       
+    </div>
+</body>
+
+</html>
